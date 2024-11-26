@@ -1,0 +1,24 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-logo-img {
+  padding-top: 4.3rem;
+  padding-bottom: 4.3rem;
+}
+.navlist {
+  display: flex;
+  gap: 3.3rem;
+  font-size: $menu-fz;
+  font-weight: 700;
+}
+.navlink {
+  color: $grey;
+  line-height: $menu-lh;
+  transition: 0.3s;
+
+  &:hover {
+    color: black;
+  }
+}
