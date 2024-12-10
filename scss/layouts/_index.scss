@@ -127,12 +127,6 @@
   margin-bottom: 20rem;
 }
 
-.last-section-container {
-  background-image: url("../../images/row.svg"),
-    url("../../images/oval-row.svg");
-  background-repeat: no-repeat;
-  background-position: center top 1rem, center top;
-  padding-top: 4rem;
   h4 {
     font-size: $h4-fz;
     line-height: $h4-lh;
@@ -171,4 +165,10 @@
   .button {
     margin-bottom: 20rem;
   }
+}
+
+.collections {
+  background-image: url("../../images/bg-img-collections.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
